@@ -1,3 +1,1 @@
-# Git e GitHub
-
-# Adicionei essa linha e mais linha em branco acima
+Essa é a mensagens que quero mostrar no terminal

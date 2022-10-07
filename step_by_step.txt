@@ -1,0 +1,143 @@
+    1  cd Documentos/
+    2  ls -R
+    3  clear
+    4  ls -r
+    5  ls -R
+    6  clear
+    7  cd Documentos/
+    8  ls -R | grep "\.txt"
+    9  ls -R | grep "*.txt"
+   10  ls -R | grep "\.txt"
+   11  ls -R | grep ".txt"
+   12  ls -R | grep ".csv" | grep ".xlsx"
+   13  ls -R | grep ".xlsx"
+   14  clear
+   15  mkdir -p estudo/python
+   16  cd Desktop
+   17  cd OneDrive/Área\ de\ Trabalho/Documentos/estudo/python/
+   18  git status
+   19  git status
+   20  quit
+   21  quit()
+   22  exit()
+   23  clear
+   24  exit
+   25  namecomputer
+   26  hostname
+   27  echo hostname >> Readme.md
+   28  ls
+   29  cat Readme.md
+   30  echo "hostname" >> Readme.md
+   31  cat Readme.md 
+   32  hostname >> Readme.md
+   33  cat Readme.md
+   34  pyhton
+   35  rm Readme.md
+   36  ls
+   37  cd 
+   38  ls
+   39  cd Documents/
+   40  ls
+   41  cd curso_toti/
+   42  ls
+   43  cd git-github/
+   44  ls
+   45  git branch
+   46  git checkout develop
+   47  ls
+   48  git log --graph
+   49  touch create_in_dev.txt
+   50  git status
+   51  git add .
+   52  git status
+   53  git restore --staged create_in_dev.txt
+   54  git status
+   55  git checkout create_in_dev.txt
+   56  git status
+   57  git add .
+   58  git commit -m "Create file create_in_dev.txt"
+   59  git status
+   60  git log
+   61  git reset --soft 1b523dcb
+   62  git status
+   63  git commit -m "test of git reste --mixed"
+   64  git status
+   65  git log --graph
+   66  git checkout master
+   67  git status
+   68  ls
+   69  vim file_master.txt
+   70  cat file_master.txt 
+   71  git log --graph
+   72  git status
+   73  git commit -am "Add file_master.txt"
+   74  git add .
+   75  git commit -m "Add file_master.txt"
+   76  git log --graph
+   77  git checkout develop
+   78  ls
+   79  git status
+   80  git log
+   81  git reset --mixed 2f2ac0317cae
+   82  git reset --mixed 1b523dcb2ef
+   83  git log
+   84  git diff
+   85  git status
+   86  clear
+   87  git status
+   88  git checkout create_in_dev.txt
+   89  git add .
+   90  git status
+   91  git commit -m "Add create_in_dev.txt"
+   92  git status
+   93  'Texto que ilustra alteração no arquivo' >> create_in_dev.txt
+   94  echo 'Texto que ilustra alteração no arquivo' >> create_in_dev.txt
+   95  cat create_in_dev.txt
+   96  git diff
+   97  git status
+   98  git add .
+   99  git diff
+  100  git status
+  101  git commit -m "Add new line at archive"
+  102  git status
+  103  git log --graph
+  104  git checkout
+  105  git checkout master
+  106  git log --graph
+  107  git shortlog
+  108  git merger develop
+  109  git merge develop
+  110  git log --graph
+  111  git checkout develop
+  112  ls
+  113  vim NewFileDev.md
+  114  cat NewFileDev.md
+  115  git status
+  116  git diff
+  117  git add .
+  118  git commit -m 'Add NewFileDev.md'
+  119  git status
+  120  git log --graph
+  121  git reset --hard a054ea5fcb669cb730080c7035751253f7b8075f
+  122  git log --graph
+  123  git checkout master
+  124  git log --graph
+  125  git reset --hard a054ea5fcb669cb730080c7035751253f7b8075f
+  126  git log --graph
+  127  git status
+  128  git reset --mixed 1b523dcb2ef5a2f2ac0317cae8fa66a2b8566e04
+  129  git status
+  130  git diff
+  131  echo 'Add value in Create in dev' >> create_in_dev.txt
+  132  git diff
+  133  git diff
+  134  git status
+  135  cat create_in_dev.txt 
+  136  git add .
+  137  git status
+  138  git diff
+  139  git commit -m 'Add create_in_dev.txt'
+  140  git log --graph
+  141  git log --decorate
+  142  git history >> step_by_step.txt
+  143  history >> step_by_step.txt
